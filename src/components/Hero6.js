@@ -49,11 +49,11 @@ const Hero6 = () => {
             }`}
           >
             <p className="mb-2">Fitur Utama:</p>
-            <ul>
-              <li>1. Akses ke beberapa template dasar, meliputi: Absensi, Jobdesk, Meeting Doc, Perjanjian Kerja</li>
-              <li>2. Solusi praktis untuk kebutuhan dasar administrasi.</li>
-              <li>3. Ideal untuk mencoba manfaat dari template Zolve tanpa biaya.</li>
-            </ul>
+                <ul className="list-disc pl-5">
+                  <li>Akses ke beberapa template dasar, meliputi: Absensi, Jobdesk, Meeting Doc, Perjanjian Kerja</li>
+                  <li>Solusi praktis untuk kebutuhan dasar administrasi.</li>
+                  <li>Ideal untuk mencoba manfaat dari template Zolve tanpa biaya.</li>
+                </ul>
           </div>
 
           {/* Book Image */}

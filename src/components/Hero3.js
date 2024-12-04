@@ -45,10 +45,10 @@ const Hero3 = () => {
         </div>
 
         {/* Kolom Kanan dengan Teks */}
-        <div className={`md:w-1/2 text-center md:text-left pl-4 mt-4 md:mt-0 transition-all duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'} ${fadeIn ? 'translate-y-0' : '-translate-y-10'}`}>
+        <div className={`md:w-1/2 text-center md:text-left mt-4 md:mt-0 transition-all duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'} ${fadeIn ? 'translate-y-0' : '-translate-y-10'}`}>
           {/* Teks di atas judul */}
           <p className="italic text-lg sm:text-xl md:text-2xl leading-relaxed mb-4">
-            Pekerjaan administratif bisa menghabiskan waktu berharga Kamu yang seharusnya bisa digunakan untuk hal yang lebih penting—entah itu belajar, bekerja, atau mengembangkan bisnis Anda.
+            Pekerjaan administratif bisa menghabiskan waktu berharga Kamu yang seharusnya bisa digunakan untuk hal yang lebih penting, entah itu belajar, bekerja, atau mengembangkan bisnis Anda.
           </p>
           
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500 mb-4">

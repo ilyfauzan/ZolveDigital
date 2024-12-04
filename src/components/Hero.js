@@ -20,7 +20,7 @@ const Hero = () => {
       >
         {/* Left Column with Heading */}
         <div
-          className={`md:w-1/2 text-center md:text-left pl-4 mt-6 md:mt-0 transition-all duration-1000 transform ${fadeIn ? 'translate-y-0' : '-translate-y-10'}`}
+          className={`md:w-1/2 text-center md:text-left  mt-6 md:mt-0 transition-all duration-1000 transform ${fadeIn ? 'translate-y-0' : '-translate-y-10'}`}
         >
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500">
             #Mudah & Siap Pakai

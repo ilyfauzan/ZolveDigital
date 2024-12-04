@@ -40,12 +40,12 @@ const Hero2 = () => {
           <img
             src="/orang-pusing.png"
             alt="Image"
-            className={`w-full md:w-auto rounded-lg shadow-lg transition-all duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}
+            className={`w-full md:w-3/4 rounded-lg shadow-lg transition-all duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}  // Ukuran gambar lebih besar lagi
           />
         </div>
 
         {/* Kolom Kanan dengan Teks */}
-        <div className={`md:w-1/2 text-center md:text-left pl-4 md:mt-0 transition-all duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
+        <div className={`md:w-1/2 text-center md:text-left md:mt-0 transition-all duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500">
             KAMU PERNAH GAK SIH?
           </h1>

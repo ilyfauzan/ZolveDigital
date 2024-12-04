@@ -42,12 +42,13 @@ const Hero7 = () => {
           <h1 className="text-4xl font-bold mb-4 text-center text-yellow-500">
             PAKET ZOLVE EKSKLUSIF!
           </h1>
-          <p className="text-lg lg:text-xl">Fitur Utama:</p>
-          <ul className="space-y-2">
-            <li className="text-base lg:text-lg">1. Akses ke Semua Template Premium</li>
-            <li className="text-base lg:text-lg">2. Dukungan Pelanggan: Mendapatkan bantuan untuk penggunaan template berupa video.</li>
-            <li className="text-base lg:text-lg">3. Update Rutin: Akses konten edukasi Admin & HR bulanan.</li>
-          </ul>
+          <p className="text-lg lg:text-xl font-bold">Fitur Utama:</p>
+            <ul className="space-y-2 list-disc pl-5 font-bold "> {/* Menambahkan list-disc untuk titik */}
+              <li className="text-base lg:text-lg">Akses ke Semua Template Premium.</li>
+              <li className="text-base lg:text-lg">Mentoring cara penggunaan template.</li>
+              <li className="text-base lg:text-lg">Update Rutin: Akses konten edukasi Admin & HR bulanan.</li>
+            </ul>
+
         </div>
 
         {/* Right Section - Image */}
@@ -59,7 +60,7 @@ const Hero7 = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <img
-                src="/Hero7.png" // Path to your uploaded image
+                src="/hero7rev.png" // Path to your uploaded image
                 alt="Product"
                 className="rounded-lg shadow-lg"
               />
