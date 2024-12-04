@@ -61,6 +61,8 @@ const Hero5 = () => {
                 <li>BPJS Ketenagakerjaan</li>
               </ul>
             </div>
+            {/* Teks "Total 200+ template siap pakai!" ditambahkan di bawah list */}
+            <p className="text-xl mt-4 text-yellow-500 font-bold">Total 200+ template siap pakai!</p>
           </div>
         </div>
       </section>
